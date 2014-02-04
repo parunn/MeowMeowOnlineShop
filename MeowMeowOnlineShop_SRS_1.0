@@ -1,1 +1,125 @@
-zdsasdasd
+Functional Requirement
+User Requirement Specifications
+
+URS-01 The user shall register to be a member to access the web application.
+URS-02 The user shall view of the products in the web application.
+URS-03 The user shall select the products that are shown in the web application.
+
+URS-04 The member shall log in to access into the web application.
+URS-05 The member shall log out to exit the web application.
+URS-06 The member shall add the selected product to the shopping cart.
+URS-07 The member shall delete products from the shopping cart.
+URS-08 The member shall check out from the shopping process. 
+URS-09 The member shall select the way of transactional to pay for the order.
+
+URS-10 The administrator shall log in to access into the web application.
+URS-11 The administrator shall log out to exit the web application.
+URS-12 The administrator shall add products to the web application.
+URS-13 The administrator shall view history of the product that has been ordered from the customers.
+URS-14 The administrator shall delete products from the web application.
+URS-15 The administrator shall edit the information of products in the web application.
+
+
+Software Requirement Specification
+
+URS-01 The user shall register to be a member to access the web application.
+
+SRS-01 The system shall display registration interface to register into the application by receiving registration information which are email as username, password, address, and image.
+
+SRS-02 The system shall check validation of registration information for getting correctly registration information.
+
+SRS-03 The system shall access to the user’s database.
+
+SRS-04 The system shall store registration information into user’s database.
+
+URS-02 The user shall view of the products in the web application.
+
+SRS-05 The system shall access to the products database.
+
+SRS-06 The system shall retrieve list of information which are product name, product category, product price, and product image.
+
+SRS-07 The system shall display list of products. In each label shall display product name, product category, product price, and product image.
+
+URS-03 The user shall select the products that are shown in the web application.
+
+SRS-08 The system shall be able to view information of products by clicking any label on the list of product.
+
+
+
+URS-04 The member shall log in to access into the web application.
+
+SRS-09 The system shall display login interface to access into the web application by receiving email as username, and password.
+
+SRS-03 The system shall access to the user’s database.
+
+SRS-10 The system shall verify username and password with user’s database to give permission user to access to the application.
+
+SRS-11 The system shall display homepage interface when user access to the web application.
+
+URS-05 The member shall log out to exit the web application.
+
+SRS-12 The system shall exit from the web application by clicking log out tab from option page.
+
+SRS-13 The system shall back to log in page after the user log out from the web application.
+
+URS-06 The member shall add the selected product to the shopping cart.
+
+SRS-14 The system shall provide add button from the product page to shopping cart.
+
+SRS-15 The system shall access to the shopping cart database.
+
+SRS-16 The system shall store product name to the database.
+
+
+
+URS-07 The member shall delete products from the shopping cart.
+
+SRS-17 The system shall provide delete button for deleting product from shopping cart.
+
+SRS-15 The system shall access to the shopping cart database.
+
+SRS-18 The system shall delete product from shopping cart and shopping cart database.
+
+SRS-19 The system shall display list of product in shopping cart.
+
+URS-08 The member shall check out from the shopping process. 
+
+URS-09 The member shall select the way of transactional to pay for the order.
+
+URS-10 The administrator shall log in to access into the web application.
+
+SRS-09 The system shall display login interface to access into the web application by receiving email as username, and password.
+
+SRS-03 The system shall access to the user’s database.
+
+SRS-10 The system shall verify username and password with user’s database to give permission user to access to the application.
+
+SRS-11 The system shall display homepage interface when user access to the web application.
+
+URS-11 The administrator shall log out to exit the web application.
+
+SRS-12 The system shall exit from the web application by clicking log out tab from option page.
+
+SRS-13 The system shall back to log in page after the user log out from the web application.
+
+URS-12 The administrator shall add products to the web application.
+
+SRS- The system shall provide add product button from the product page to shopping cart.
+
+*SRS- The system shall access to the product database.
+
+SRS- The system shall store product information to the product database.
+
+URS-13 The administrator shall view history of the product that has been ordered from customers.
+URS-14 The administrator shall delete products from the web application.
+
+SRS- The system shall provide delete button for deleting product from product page.
+
+*SRS- The system shall access to the product database.
+
+SRS- The system shall delete product from product list and product database.
+
+SRS- The system shall display list of product in product page.
+
+URS-15 The administrator shall edit the information of products in the web application.
+
