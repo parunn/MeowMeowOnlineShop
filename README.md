@@ -1,4 +1,0 @@
-MeowMeowOnlineShop
-==================
-
-Softwa Engineering Project
